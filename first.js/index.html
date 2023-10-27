@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="index.js"></script> -->
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="todo-app">
-        <h2 class="title">To-Do-List <img class="image" src="images/icon.png" alt="icon"></h2>
+            <div class="title">
+                <h2>To-Do List</h2>
+                <img class="image" src="images/icon.png" alt="icon">
+            </div>
+            <div class="inputs">
+                <input id="textinput" type="text">
+                <button onclick="displayText()">Add</button>
+                <ul id="outputText"></ul>
+            </div>
+        </div>
     </div>
-    </div>
+
+    <!-- Include the external JavaScript file -->
+    <script src="index.js"></script>
 </body>
 </html>
