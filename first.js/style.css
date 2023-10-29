@@ -57,6 +57,9 @@ body{
     display: flex;
     list-style-type: none;
     padding-bottom: 10px;
+    margin: 0px;
+    padding-left: 0px;
+    list-style-position: outside;
 }
 
 #outputText img{
@@ -64,4 +67,21 @@ body{
     /* margin-top: 10px; */
     margin-right: 10px;
     vertical-align:bottom; 
+}
+
+#deletebin{
+    margin-left: 300px;
+}
+
+.textDiv{
+    flex: 1;
+    word-wrap: break-word;
+}
+
+#outputtext{
+    position: relative;
+}
+
+#deletebin{
+    position: absolute;
 }
